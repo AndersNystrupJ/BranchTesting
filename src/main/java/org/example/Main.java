@@ -9,6 +9,9 @@ public class Main {
     Cat misse = new Cat();
     misse.makeSound();
 
+    king.eat("kødben");
+    misse.eat("tun");
+
 
     }
 }
