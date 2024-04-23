@@ -2,7 +2,11 @@ package org.example;
 
 public class Cat extends Animal{
 
-    public void makeSound(){
+    public Cat(String name){
+        super(name);
+    }
+
+    public void makeSound(String sound){
         System.out.println("Miav!");
     }
 
@@ -12,9 +16,9 @@ public class Cat extends Animal{
 
     public void mood(boolean glad){
         if (glad = true) {
-            System.out.println("spinder");
+            System.out.println(getName() + " spinder");
         } else {
-            System.out.println("hvæser");
+            System.out.println(getName() + " hvæser");
         }
     }
 }

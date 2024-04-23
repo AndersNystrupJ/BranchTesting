@@ -2,9 +2,13 @@ package org.example;
 
 public class Dog extends Animal{
 
+    public Dog(String name){
+        super(name);
+    }
 
-    public void makeSound(){
-        System.out.println("Woouf!");
+
+    public void makeSound(String sound){
+        System.out.println("woof!");
     }
 
     public boolean eat(String foodType){
@@ -13,9 +17,9 @@ public class Dog extends Animal{
 
     public void mood(boolean glad){
         if (glad = true) {
-            System.out.println("logrer");
+            System.out.println(getName() + " logrer");
         } else {
-            System.out.println("knurrer");
+            System.out.println(getName() + " knurrer");
         }
     }
 }
