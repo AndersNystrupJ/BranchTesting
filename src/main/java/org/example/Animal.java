@@ -5,4 +5,8 @@ public abstract class Animal {
 
     public void makeSound(){
     }
+
+    public boolean eat(String foodType){
+        return true;
+    }
 }
