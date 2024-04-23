@@ -9,4 +9,8 @@ public abstract class Animal {
     public boolean eat(String foodType){
         return true;
     }
+
+    public void mood(boolean glad){
+
+    }
 }
